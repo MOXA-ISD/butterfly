@@ -44,6 +44,7 @@ setup(
             'templates/index.html',
             'bin/*',
             'templates/motd',
+            'templates/motd-moxa',
             'butterfly.conf.default'
         ]
     },
