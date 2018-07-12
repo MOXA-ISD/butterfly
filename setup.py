@@ -42,6 +42,7 @@ setup(
             'static/html-sanitizer.js',
             'static/*.min.js',
             'templates/index.html',
+            'templates/index-moxa.html',
             'bin/*',
             'templates/motd',
             'templates/motd-moxa',
