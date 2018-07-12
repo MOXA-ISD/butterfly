@@ -48,8 +48,10 @@ class Index(Route):
             'user', [b''])[0].decode('utf-8')
         if not tornado.options.options.unsecure and user:
             raise tornado.web.HTTPError(400)
+        # return self.render(
+        #    'index.html', session=session or str(uuid4()))
         return self.render(
-            'index.html', session=session or str(uuid4()))
+            'index-moxa.html', session=session or str(uuid4()))
 
 
 @url(r'/theme/([^/]+)/style.css')
